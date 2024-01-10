@@ -1,5 +1,4 @@
-# Laravel-mix Kanban Board App like trello
-This app uses laravel and vuejs combination to make kanban board functional
+# Kanban Board App Demo
 ### System Requirements
 1) Should have PHP version: 8.1 
 2) Should have Node version: 12.13.0
