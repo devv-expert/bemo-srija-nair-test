@@ -23,13 +23,13 @@
       </div>
     </div>
     <div class="p-3 flex justify-between items-end text-sm bg-gray-100">
-      <!-- <button
+      <button
         @click="$emit('task-canceled')"
         type="reset"
         class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"
       >
         cancel
-      </button> -->
+      </button>
       <button
         type="submit"
         class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"

@@ -2661,20 +2661,26 @@ var render = function render() {
     }]
   }, [_c("span", {
     staticClass: "text-xs text-red-500"
-  }, [_vm._v("\n        " + _vm._s(_vm.errorMessage) + "\n      ")])])]), _vm._v(" "), _vm._m(0)]);
-};
-var staticRenderFns = [function () {
-  var _vm = this,
-    _c = _vm._self._c;
-  return _c("div", {
+  }, [_vm._v("\n        " + _vm._s(_vm.errorMessage) + "\n      ")])])]), _vm._v(" "), _c("div", {
     staticClass: "p-3 flex justify-between items-end text-sm bg-gray-100"
   }, [_c("button", {
     staticClass: "bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow",
     attrs: {
+      type: "reset"
+    },
+    on: {
+      click: function click($event) {
+        return _vm.$emit("task-canceled");
+      }
+    }
+  }, [_vm._v("\n      cancel\n    ")]), _vm._v(" "), _c("button", {
+    staticClass: "bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow",
+    attrs: {
       type: "submit"
     }
-  }, [_vm._v("\n      Add\n    ")])]);
-}];
+  }, [_vm._v("\n      Add\n    ")])])]);
+};
+var staticRenderFns = [];
 render._withStripped = true;
 
 
@@ -39889,8 +39895,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\windows\www\laraval-vue-mix-kanban-board-main\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! D:\windows\www\laraval-vue-mix-kanban-board-main\resources\css\app.css */"./resources/css/app.css");
+__webpack_require__(/*! D:\windows\www\bemo-srija-nair-test\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! D:\windows\www\bemo-srija-nair-test\resources\css\app.css */"./resources/css/app.css");
 
 
 /***/ })
